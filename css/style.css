@@ -19,6 +19,7 @@
   cursor: pointer;
   border-bottom: 1px solid gray;
   top: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -107,6 +108,7 @@ Burger
 
 .btn-sml{
     padding: 4px 8px;
+    border-radius: 50px;
 }
 
 .first-section {
@@ -154,8 +156,8 @@ Burger
 }
 
 .btn-right{
-    border: none;
-    background: rgba(0, 0, 0, 0.6);
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
     color: #a4da22d6 
 }
 
@@ -181,7 +183,6 @@ Burger
 .images {
   width: 250px;
   height: 200px;
-  z-index: 1;
 }
 
 .images img {
@@ -190,8 +191,7 @@ Burger
   opacity: 0.9;
   border: 3px solid black;
   border-radius: 15px;
-    z-index: -1;
-    position: relative;
+  position: relative;
 }
 
 .secSecond {
@@ -257,12 +257,12 @@ Burger
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 100%;
-  margin: 25px 0;
+  width: 62%;
+  margin: 25px auto;
 }
 
 .form-input{
-  width: 500px;
+  width: 100%;
   padding: 10px;
   margin: 17px 0;
   border-radius: 10px;
@@ -277,7 +277,8 @@ Burger
   background: black;
   padding: 6px 30px;
   font-size: 20px;
-  margin: 15px;
+  margin: 15px auto;
+  display: block;
 }
 
 .btn-dark:hover {
@@ -319,7 +320,6 @@ Burger
   }
   
   .rightNav{
-    width: 100%;
    text-align: center;
    display: flex;
    flex-direction: column;
@@ -338,16 +338,8 @@ Burger
     width: 50px;
     margin: 0 auto;
   }
-
-  .text-big {
-    font-size: 25px;
-  }
-
-  .images img {
-    width: 75%;
-    height: 75%;
-  }
-
+  
+  
   .burger{
     display: block;
     cursor: pointer;
@@ -364,4 +356,69 @@ Burger
   .v-class{
     opacity: 0;
   }
+
+.first-section {
+  padding-top: 20px;
+  height: 50vh;
+}
+.box-main{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.content{
+  text-align: left;
+  width: 100%;
+  
+}
+
+.text-big {
+  text-align: center;
+  font-size: 25px;
+}
+
+.text-small {
+  text-align: center;
+  font-size: 15px;
+}
+
+.buttons{
+  flex-direction: column;
+  margin: 5px;
+}
+
+.buttons .btn-left{
+  margin: 5px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.images img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  height: 90%;
+  }
+
+.secSecond {
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+   
+.thumbnail img{
+  width: 176px;
+    height: 137px;
+  }
+
+
 }

@@ -56,9 +56,6 @@
       </div>
     </section>
 <!-- section 2 begins -->
-    <section class="background-firstSection">
-
-    </section>
 
     <section class="secSecond">
       <div class="container">
@@ -95,14 +92,16 @@
     <section class="contact">
       <h2 class="contact-head text-big">Contact Us</h2>
 <!-- form -->
-      <div class ='form'>
+      
+<div class ='form'>
+        <form action="/contact" method="post" class="myForm">
         <input class ="form-input" type="text" name="name" placeholder="Name">
         <input class ="form-input" type="text" name="phone" placeholder="Phone">
         <input class ="form-input" type="text" name="address" placeholder="Address">
         <input class ="form-input" type="text" name="email" placeholder="Email">
         <textarea class ="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your cocern"></textarea>
-       
           <button class="btn btn-dark">Submit</button>
+        </form>
       </div>
     </section>
 
@@ -114,6 +113,7 @@
       </p>
     </footer>
     <!-- js -->
+    <script src="app.js"></script>
     <script src="js/response.js"></script>
   </body>
 </html>
