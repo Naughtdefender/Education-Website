@@ -3,27 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Education Website</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- title -->
+    <title>Education Website</title> 
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" /> 
   </head>
   <body>
-    <nav class="navbar background">
-      <div class="logo">
-        <img src="./img/img.png" alt="logo" />
-      </div>
-      <div class="navbarLeft">
-        <ul>
+    
+ <!-- Navbar -->
+    
+    <nav class="navbar h-nav background">  
+      <!-- navbar links -->  
+      <ul class="nav-list v-class">
+        <div class="logo">
+          <img src="./img/img.png" alt="logo" />
+        </div>
           <li><a href="/home">Home</a></li>
           <li><a href="/about">About Us</a></li>
           <li><a href="/services">Services</a></li>
           <li><a href="/contact">Contact Us</a></li>
         </ul>
-      </div>
-      <div class="navbarRight">
-        <input type="text" name="search" class="search" />
-        <button class="btn btn-sml">Search</button>
-      </div>
+        <div class="rightNav v-class">
+          <input type="text" name="search" class="search" />
+          <button class="btn btn-sml">Search</button>
+        </div>
+          <div class="burger">
+            <li class="line"></li>
+            <li class="line"></li>
+            <li class="line"></li>
+          </div>
     </nav>
+
+<!-- navbar end -->
+<!-- section 1 -->
     <section class="first-section background">
       <div class="box-main">
         <div class="content">
@@ -43,7 +55,7 @@
         </div>
       </div>
     </section>
-
+<!-- section 2 begins -->
     <section class="background-firstSection">
 
     </section>
@@ -69,7 +81,7 @@
           <img src="https://source.unsplash.com/random/300x200/?coding" alt="education img" class="imgFluid">
       </div>
     </section>
-    
+    <!-- section 3 begins -->
     <section class="secSecond">
       <div class="container">
 
@@ -82,6 +94,7 @@
     </section>
     <section class="contact">
       <h2 class="contact-head text-big">Contact Us</h2>
+<!-- form -->
       <div class ='form'>
         <input class ="form-input" type="text" name="name" placeholder="Name">
         <input class ="form-input" type="text" name="phone" placeholder="Phone">
@@ -92,6 +105,9 @@
           <button class="btn btn-dark">Submit</button>
       </div>
     </section>
+
+<!-- footer -->
+
     <footer class="background">
       <p class="text-footer">
         Copyright &copy; 2023 - All Rights Reserved
