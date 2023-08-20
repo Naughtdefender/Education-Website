@@ -3,7 +3,7 @@ const navbar = document.querySelector(".navbar");
 const navList = document.querySelector(".nav-list");
 const rightNav = document.querySelector(".rightNav");
 
-burger.addEventListe    ner('click', ()=>{
+burger.addEventListener('click', ()=>{
     rightNav.classList.toggle('v-class');
     navList.classList.toggle('v-class');
     navbar.classList.toggle('h-nav');
