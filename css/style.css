@@ -16,7 +16,6 @@
   align-items: center;
   justify-content: center;
   position: sticky;
-  cursor: pointer;
   border-bottom: 1px solid gray;
   top: 0;
   z-index: 1;
@@ -50,6 +49,7 @@
   color: white;
   font-size: 20px;
   padding: 12px 0;
+  cursor: pointer;
 }
 
 .nav-list li a:hover {
