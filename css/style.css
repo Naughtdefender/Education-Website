@@ -317,6 +317,7 @@ Burger
   }
 
   .rightNav {
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -325,8 +326,8 @@ Burger
   .search {
     font-size: 10px;
     padding: 5px;
-    width: 150px;
-    margin: 5px auto;
+    width: 109px;
+    margin: 10px auto;
     border-radius: 15px;
   }
 
@@ -354,7 +355,7 @@ Burger
   }
 
   .first-section {
-    padding-top: 20px;
+    padding: 20px;
     height: 70vh;
   }
   .box-main {
@@ -372,14 +373,19 @@ Burger
     width: 80%;
   }
 
+  .container {
+    max-width: 80%;
+    padding: 10px 10px;
+  }
+
   .text-big {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .text-small {
     text-align: center;
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .buttons {
@@ -392,10 +398,10 @@ Burger
   }
 
   .images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 130px;
   }
 
   .images img {
@@ -404,17 +410,41 @@ Burger
   }
 
   .secSecond {
-    height: 500px;
     display: flex;
     flex-direction: column-reverse;
   }
 
+  .thumbnail{
+    display: block;
+    margin: 10px auto;
+    width: 130px;
+    height: 110px;
+  }
   .thumbnail img {
-    width: 176px;
-    height: 137px;
+    margin: auto;
+    width: 130px;
+    height: 110px;
   }
 
   .contact {
     max-width: 100%;
   }
+}
+
+@media only screen and (max-width: 263px){
+  .container {
+  max-width: 100%;
+  }
+  .text-big {
+  width: 80%;
+}
+.secSecond {
+  max-width: 100%;
+  height: 500px;
+  margin: 0;
+}
+.images img {
+  width: 125px;
+  height: 113px;
+}
 }
