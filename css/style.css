@@ -444,6 +444,8 @@ Burger
   margin: 0;
 }
 .images img {
+  display: block;
+  margin: 0 auto;
   width: 125px;
   height: 113px;
 }
